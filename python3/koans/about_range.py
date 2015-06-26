@@ -18,8 +18,6 @@ class AboutRange(Koan):
         with self.assertRaises(__):
             next(range(1))  # should raise a TypeError
 
-        self.assertRaises(__, test)
-
     def test_range_can_be_an_iterator(self):
 
         iter_range = iter(range(1))
