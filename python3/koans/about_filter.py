@@ -3,7 +3,7 @@ from runner.koan import *
 
 class AboutFilter(Koan):
     """
-    filter(lambda, iterable) is a builtin method that returns an iterator that contains only
+    filter(lambda, iterable) is a builtin function that returns an iterator that contains only
     the elements for which lambda(x) == True
     """
 

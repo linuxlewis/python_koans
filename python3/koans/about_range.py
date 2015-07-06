@@ -53,7 +53,7 @@ class AboutRange(Koan):
     def test_range_can_step_by_value(self):
 
         result = []
-        for x in range(0, 50, 5):
+        for x in range(0, 20, 5):
             result.append(x)
 
         self.assertEqual(__, result)
